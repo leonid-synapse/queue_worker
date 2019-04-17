@@ -1,0 +1,4 @@
+services:
+  queue_worker.rabbitmq:
+    class: Drupal\queue_worker\Services\RabbitmqService
+    arguments: ['@rabbitmq.connection.factory']

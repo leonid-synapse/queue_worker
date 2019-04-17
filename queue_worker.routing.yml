@@ -1,0 +1,8 @@
+
+queue_worker.push_queue_message:
+  path: '/queue_worker/push-queue-message'
+  defaults:
+    _controller: '\Drupal\queue_worker\Controller\PushQueueMessageController::push'
+    _title: 'Push queue message'
+  requirements:
+    _role: 'administrator'

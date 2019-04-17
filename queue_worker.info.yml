@@ -1,0 +1,5 @@
+name: 'Queue worker'
+type: module
+description: 'Queue worker functions'
+core: 8.x
+package: 'Custom'
